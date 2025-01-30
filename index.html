@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trafikklys oppgave</title>
-    
     <link rel="stylesheet" href="style.css">
 </head>
 <body onload="intervall">
-   <div id="rød" class="dot1 red"></div>
-   <div id="gul" class="dot1 yellow"></div>
-   <div id="grønn" class="dot1 green"></div>
-    <button class="redLight" onclick="redLightOn('red', 'yellow', 'green')" >Rød</button>
-    <button class="yellowAndRedLight" onclick="yellowAndRedLightOn('red', 'yellow', 'green')" >Rød og gul</button>
-    <button class="yellowLight" onclick="yellowLightOn('red', 'yellow', 'green')" >Gul</button>
-    <button class="greenLight" onclick="greenLightOn('red', 'yellow', 'green')">Grønn</button>
-       </div> 
-        <script src="script.js"></script>
+   <div class="container">
+       <div id="rød" class="dot1 red"></div>
+       <div id="gul" class="dot1 yellow"></div>
+       <div id="grønn" class="dot1 green"></div>
+   </div>
+   <div class="buttons">
+       <button class="redLight" onclick="redLightOn('red', 'yellow', 'green')">Rød</button>
+       <button class="yellowAndRedLight" onclick="yellowAndRedLightOn('red', 'yellow', 'green')">Rød og gul</button>
+       <button class="yellowLight" onclick="yellowLightOn('red', 'yellow', 'green')">Gul</button>
+       <button class="greenLight" onclick="greenLightOn('red', 'yellow', 'green')">Grønn</button>
+   </div>   
+   <script src="script.js"></script>
 </body>
 </html>
