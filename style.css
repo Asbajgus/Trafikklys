@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    text-align: center;
+    border-radius: 5em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+
+.dot1 {  
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+flex-direction: column;
+justify-content: space-around;
+padding: 15px;
+  }
+  
+
+
+
+.red {
+    background-color: red;
+    color: red;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 5px solid;
+
+}
+
+.yellow {
+    background-color:yellow;
+    color: rgb(255, 199, 58);
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 5px solid;
+}
+
+.green {
+    background-color: green;
+    color: green;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 5px solid;
+    
+}
+
+.redLight {
+    cursor: pointer;
+    background-color: red;
+    width: 200px;
+    font-size: 30px;
+}
+
+.yellowAndRedLight {
+    cursor: pointer;
+    background-color: yellow;
+    width: 200px;
+    font-size: 30px;
+}
+
+.greenLight {
+    cursor: pointer;
+    background-color: green;
+    width: 200px;
+    font-size: 30px;
+}
+
+.yellowLight {
+    cursor: pointer;
+    background-color: yellow;
+    width: 200px;
+    font-size: 30px;
+}
+
+.interval {
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    margin-top: 20px;
+}
