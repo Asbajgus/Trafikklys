@@ -1,6 +1,4 @@
 
-
-
         function redLightOn() {
             document.getElementById("rød").classList.add("red");
             document.getElementById("gul").classList.remove("yellow");
@@ -32,5 +30,5 @@
                 setTimeout(greenLightOn, 3000); 
             }, 6000);
         }
-
-window.onload = intervall;  
+console.debug("script.js loaded");
+window.onload = intervall;
